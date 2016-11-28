@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <title>App landing page</title>
+        <link rel="stylesheet" href="css/zero-style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="css/style1200.css">
+        <link rel="stylesheet" media="screen and (min-width: 960px)and (max-width: 1199px)" href="css/style960.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 959px)" href="css/style768.css">
+        <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 767px)" href="css/style480.css">
+        <link rel="stylesheet" media="screen and (max-width: 479px)" href="css/style320.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+        <script src="scripts/jquery-3.1.1.min.js"></script>
+        <script src="bxslider/jquery.bxslider.min.js"></script>
+        <link href="bxslider/jquery.bxslider.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+        <header>
+                <nav>
+                        <ul class="menu">
+                                <li><span class="name">Smallapps</span></li>
+                                <li>Home</li>
+                                <li>Features</li>
+                                <li>Screenshot</li>
+                                <li>Gallery</li>
+                        </ul>
+                        
+                        <div class="nav_tel_email">
+                        <img src="images/tel.png" width=auto height=auto" alt="tel">800-123-456
+                        <img src="images/email.png" width=auto height=auto alt="email">smallapps@gmail.com
+                        </div>
+                        
+                </nav>
+        </header>
+        
+        <section>
+        
+                <article>
+                        <img class="slider_back" src="images/slider_tel.jpg" alt="slider_tel">
+                        <div class="title">Perfect app landing page</div>
+                        <div class="title2">Duis bibendum diam</div>
+                        <form action="download_button.html" method="post">
+                        <input class="send" type="submit" value="DOWNLOAD">
+                        </form>
+                        
+                </article>
+                
+                <article>
+                
+                <ul class="bxslider">
+                  <li><img src="images/mob1.jpg" /></li>
+                  <li><img src="images/mob2.jpg" /></li>
+                  <li><img src="images/mob3.jpg" /></li>
+                </ul>                 
+                <script>$(document).ready(function(){
+                  $('.bxslider').bxSlider({
+                  pager: false, // отключаем индикатор количества слайдов
+                  nextText: '', // отключаем текст кнопки Next
+                  prevText: '' // отключаем текст кнопки Prev
+                  });
+                });</script>
+                </article>
+                
+        </section>
+
+        <aside>
+                <h2>Об авторе</h2>
+                <p>Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль..</p>
+        </aside>
+
+        <footer>
+           <p>Copyright 2014 Ваш сайт</p>
+        </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+#text:after{
+	content:"960";}
+body{
+	background:green;
+}
+nav {
+	width: 960px;
+	max-width: 90%;
+	background-color: white; 
+	color: #3d3e43;
+	}
+
+ul.menu {
+    width: 350px;
+	max-width: 70%;
+	height: 50px;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 100px;
+    float: left;
+    margin-bottom: -20px;
+    margin-top: 10px;
+	}
+ul.menu li {
+	font-size: 10px; 
+	padding: 10px; 
+	display: inline;
+	}
+.name {
+	font-size: 17px; 
+	font-weight: bold;
+	}
+
+.nav_tel_email {
+	font-size: 10px;  
+	float: right;
+	margin-top: 10px;
+	margin-right: 150px;
+	}
+nav img {
+	padding-right: 3px;
+}
+a.email {
+	text-decoration: none;
+	}
+
+.slider_back {
+	width: 960px;
+	max-width: 90%; 
+	height: auto;
+	margin: 0 auto;
+	min-width: 500px;
+	} /*display size: 960px*/
+
+form {text-align: center;}
+
+.send {
+	width: 110px;
+	font-size: 10px;
+	border-radius: 8px; 
+	box-shadow: 5px 5px 10px 0px rgba(2,3,5,1); 
+	font-family: "Raleway Bold"; 
+	font-weight: bold; 
+	color: #3c3d42; 
+	background-color: white;
+	padding: 8px;
+	margin-bottom: 150px;
+	margin-right: 210px;
+	}
+
+.title {
+	width: 350px;
+	font-size: 21px; 
+	font-family: "Raleway Bold Raleway Light"; 
+	font-weight: bold; 
+	color: white; 
+	text-align: center;
+	margin-top: -220px;
+	margin-left: 310px;
+	}
+.title2 {
+	width: 300px;
+	font-size: 18px; 
+	font-family: "Raleway Light Raleway Light"; 
+	color: white; 
+	text-align: center;
+	margin-left: 340px;
+	margin-bottom: 10px;
+	}
